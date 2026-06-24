@@ -12,7 +12,7 @@
 }
 
 .nav-link {
-    color: rgb(255, 255, 255) !important; /* ganti warna link */
+    color: rgb(0, 0, 0) !important; /* ganti warna link */
     text-decoration: none;
 }
 
@@ -84,13 +84,13 @@
 
 .hero-item:hover {
     gap: 6px; /* pas hover kasih jarak */
-    color: #ff0000 !important;
+    color: #ffffff !important;
 }
 
 .hero-item:hover .hero-text {
     opacity: 1;
     max-width: 200px; /* kasih max biar cukup nampung text */
-    color: #ff0000 !important;
+    color: #ffffff !important;
 
 }
 .hero-title > h1{
@@ -117,7 +117,7 @@
     position: relative;
     padding: 18px 36px;
     background: transparent;
-    border: 2px solid #ff0000;
+    border: 2px solid rgba(255, 255, 255, 0.144);
     border-radius: 15px;
     color: white;
     font-size: 16px;
@@ -126,8 +126,8 @@
     overflow: hidden;
     transition: all 0.3s ease;
     box-shadow: 
-        0 0 20px rgba(176, 44, 44, 0.3),
-        inset 0 0 20px rgba(176, 44, 44, 0.1);
+        0 0 20px rgba(255, 255, 255, 0.226),
+        inset 0 0 20px rgba(255, 255, 255, 0.1);
 }
 
 /* Sweep effect */
@@ -140,7 +140,7 @@
     bottom: 0;
     background: linear-gradient(90deg, 
         transparent, 
-        rgba(176, 44, 44, 0.2), 
+        rgba(255, 255, 255, 0.1), 
         transparent);
     transform: translateX(-100%);
     transition: transform 0.6s ease;
@@ -165,10 +165,10 @@
 /* Hover Effects */
 #order-now:hover {
     color: #fff;
-    background: rgba(255, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.3);
     box-shadow: 
-        0 0 40px rgba(255, 0, 0, 0.6),
-        inset 0 0 40px rgba(176, 44, 44, 0.2);
+        0 0 40px rgba(255, 255, 255, 0.6),
+        inset 0 0 40px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
 }
 
@@ -190,17 +190,17 @@
 #order-now:active {
     transform: translateY(0) scale(0.98);
     box-shadow: 
-        0 0 30px rgba(176, 44, 44, 0.5),
-        inset 0 0 30px rgba(176, 44, 44, 0.15);
+        0 0 30px rgba(255, 255, 255, 0.6),
+        inset 0 0 30px rgba(255, 255, 255, 0.15);
 }
 
 /* Focus state untuk accessibility */
 #order-now:focus {
     outline: none;
     box-shadow: 
-        0 0 0 3px rgba(176, 44, 44, 0.3),
-        0 0 40px rgba(176, 44, 44, 0.6),
-        inset 0 0 40px rgba(176, 44, 44, 0.2);
+        0 0 0 3px rgba(255, 255, 255, 0.3),
+        0 0 40px rgba(255, 255, 255, 0.6),
+        inset 0 0 40px rgba(255, 255, 255, 0.2);
 }
 .hero-card > .card{
     justify-content: center;
