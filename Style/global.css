@@ -8,12 +8,23 @@
 }
 
 .footer-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 11px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
 }
-    
+.fc1 { 
+    flex: 2; 
+}  
+.fc2 { flex: 1; }
+.fc3 { flex: 1; }
+.fc4 { flex: 1; }
 
+.footer {
+    background-color: rgb(255, 255, 255);
+    color: #5da53c;
 
-        
+}
+.list-unstyled li a {
+    color: #5da53c;
+    text-decoration: none;
+}
