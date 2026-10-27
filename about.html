@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!-- Global CSS-->
+        <link rel="stylesheet" href="style/global.css">
+        <!-- Home CSS -->
+        <link rel="stylesheet" href="style/home.css">
+        <link rel="icon" href="img/GPMLogo.png">
+         <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <!-- Cdn Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+            <title> 
+            GRAHA PANGAN MAKMUR
+        </title>
+    </head>
+
+    <body>
+        <!-- Navbar-->
+        <nav class="navbar navbar-expand-lg p-">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold fs-4" href="index.html">
+                    <img src="img/GPMLogo.png" alt="GRAHA PANGAN MAKMUR Logo" style="width: 105px; padding: 10px;">
+                    PT GRAHA PANGAN MAKMUR
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto gap-lg-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Tentang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Produk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontak</a>
+                        </li>
+                    </ul>
+            </div>
+            <!-- Offcanvas for mobile -->
+            <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end grow pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Tentang Kami</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Product</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Fresh Product</a></li>
+                                    <li><a class="dropdown-item" href="#">Frozen Product</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- footer-->
+        <footer>
+            <div class="footer h-300"> 
+                <div class="footer-content p-3">
+                    <div class="fc1" style="display: flex; flex-direction: column;">
+                        <img src="img/GPMLogo.png" width="100px">
+                        <span class="fw-bold py-3 fs-5" style="font-family: poppins;">PT GRAHA PANGAN MAKMUR - BALI</span>
+                        <span style="font-family: poppins;">Distributor Resmi:</span>
+                        <span style="font-family: poppins;">KONG KEE Tofu & Cincau</span>
+                        <span style="font-family: poppins;">KK Frozen Food</span>
+                    </div>
+                    <div class="fc2">
+                        <p class="fw-bold fs-6">Menu</p>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Beranda</a></li>
+                            <li><a href="#">Tentang</a></li>
+                            <li><a href="#">Produk</a></li>
+                            <li><a href="#">Kontak</a></li>
+                        </ul>
+                    </div>
+                    <div class="fc3">
+                        <p class="fw-bold fs-6">Kantor Kami</p>
+                        <p>Jl. Gatot Subroto Barat No. 388 C, Desa Adat Ubung, Kecamatan Denpasar Utara, Kota Denpasar, Bali</p>
+                    </div>
+                    <div class="fc4">
+                        <p class="fw-bold fs-6">Our Social Media</p>
+                        <ul class="socialmedia list-unstyled">
+                            <li>
+                                <a href="#" class="socialicon list-unstyled fs-3 px-3">
+                                    <i class="fa-brands fa-instagram fa-solid"></i>
+                                </a>
+                                <a href="#" class="socialicon list-unstyled fs-3">
+                                    <i class="fa-brands fa-tiktok fa-solid"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-center py-3">
+                <small>&copy; 2026 PT Graha Pangan Makmur. All rights reserved.</small>
+            </div>
+        </footer>
+        <!-- Bootstrap JS -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    <!-- Footer -->
+</html>
