@@ -81,7 +81,7 @@
 
 /* Hero Section */
 .hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.219)), url('../img/herobg2.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.219)), url('../img/herobg2.jpg');
     height: 100vh;
     background-size: cover;
     animation: zoomSlow 20s ease-in;
