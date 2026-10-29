@@ -1,6 +1,6 @@
 /* Navbar */
 .navbar {
-    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2) !important; /* override bootstrap */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16) !important;
     background-color: rgb(255, 255, 255) !important;
     font-family: 'outfit', sans-serif !important;
     position: sticky;

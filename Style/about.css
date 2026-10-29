@@ -1,0 +1,15 @@
+.abouttext > p {
+    max-width: 800px;
+    margin:0 auto;
+    padding: 5px;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+.aboutcontainer > p {
+    font-family: 'poppins', sans-serif;
+    font-size: 56px;
+    color: #468a27;
+    margin-bottom: 10px;
+}
