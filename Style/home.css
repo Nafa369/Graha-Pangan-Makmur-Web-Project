@@ -1,8 +1,12 @@
 /* Navbar */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .navbar {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16) !important;
     background-color: rgb(255, 255, 255) !important;
-    font-family: 'outfit', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
     position: sticky;
     top: 0;
     z-index: 100;
