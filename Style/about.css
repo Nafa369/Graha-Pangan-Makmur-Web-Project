@@ -1,3 +1,12 @@
+.about {
+    background-color: #f3f6e8;
+    padding: 50px 0;
+    width: 100%;
+}
+.serve {
+    background-color: #f3f6e8;
+    border-radius: 16px;
+}
 .abouttext > p {
     max-width: 800px;
     margin:0 auto;
