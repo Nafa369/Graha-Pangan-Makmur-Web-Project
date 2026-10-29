@@ -17,18 +17,18 @@
 .fc4 { flex: 1; }
 
 .footer {
-    background-color: #468a27;
+    background-color: #4A943E;
     color: #ffffff;
     font-family: 'poppins', sans-serif;
-    border-top:5vh solid #468a27;
-    border-bottom: 5vh solid #468a27;
+    border-top:5vh solid #4A943E;
+    border-bottom: 5vh solid #4A943E;
 }
 .list-unstyled li a {
     color: #ffffff;
     text-decoration: none;
 }
 .footer-copyright {
-    background-color: #468a27;
+    background-color: #4A943E;
     color: #ffffff;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 }

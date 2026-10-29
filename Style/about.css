@@ -10,6 +10,54 @@
 .aboutcontainer > p {
     font-family: 'poppins', sans-serif;
     font-size: 56px;
-    color: #468a27;
+    color: #186049;
     margin-bottom: 10px;
+}
+.serveparent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.sv1, .sv2, .sv3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+    color: #186049;
+    background-color: #ECE8AF;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 250ms ease, box-shadow 250ms ease, background-color 250ms ease, color 250ms ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.sv1:hover, .sv2:hover, .sv3:hover {
+    transform: translateY(-8px);
+    background-color: #186049;
+    color: #fff;
+    box-shadow: 0 12px 24px rgba(24, 96, 73, 0.2);
+}
+.sv1 i, .sv2 i, .sv3 i {
+    transition: transform 250ms ease;
+}
+.sv1:hover i, .sv2:hover i, .sv3:hover i {
+    transform: scale(1.15);
+}
+.serve > p {
+    font-family: 'poppins', sans-serif;
+    font-size: 38px;
+    color: #186049;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .sv1, .sv2, .sv3, .sv1 i, .sv2 i, .sv3 i {
+        transition: none;
+    }
 }
